@@ -21,4 +21,4 @@ jobs:
           package-name: 'steve.helper.kotlin-datetime'
           package-type: 'maven'
           min-versions-to-keep: 3 # 최신 3개만 유지
-          ignore-versions: '.*RELEASE.*' # "RELEASE" 문구가 포함된 버전을 무시
+          ignore-versions: '*.*RELEASE' # "RELEASE" 문구가 포함된 버전을 무시
